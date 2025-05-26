@@ -1,0 +1,123 @@
+body {
+    background-color: #1a1a1a; /* Dark gray for a softer black */
+    color: #f5f5f5; /* Light gray for better contrast */
+}
+
+header {
+    background-color: #333; /* Darker gray for a modern look */
+    text-align: center;
+}
+
+main {
+    justify-items: center;
+    font-size: 30px;
+}
+
+.mainOs {
+    margin-top: 80px;
+}
+
+.FotoCara {
+    height: 200px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+a {
+    text-decoration: none;
+    font-size: x-large;
+    color: #e6a100;
+    font-weight: bolder;
+}
+
+img {
+    height: 50px;
+}
+
+table,
+th,
+td {
+    padding: 15px;
+    border: 9px solid #e6a100;
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: large;
+}
+
+.fontG {
+    font-family: "Bytesized";
+}
+
+h1 {
+    color: #ffcc00; /* Bright yellow for emphasis */
+}
+
+.cala-body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Matching body background */
+    color: #ffcc00; /* Bright yellow for text */
+}
+
+.cala-main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.cala-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.cala-nav {
+    width: 220px;
+    background-color: #262626; /* Slightly lighter gray for navigation */
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cala-nav h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #f5f5f5; /* Light gray for headings */
+    font-size: 22px;
+}
+
+.cala-nav a {
+    color: #ffcc00; /* Bright yellow for links */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.cala-nav a:hover {
+    color: #ffd700; /* Golden yellow for hover effect */
+}
+
+.cala-text {
+    flex-grow: 1;
+    padding: 30px;
+    min-height: 100%;
+    color: #f5f5f5; /* Light gray for text */
+}
+
+.juego {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    text-align: center;
+    gap: 20px;
+    color: #f5f5f5; /* Light gray for text */
+}

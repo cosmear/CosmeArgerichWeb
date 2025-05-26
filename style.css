@@ -1,0 +1,51 @@
+body {
+    background-color: #121212; /* Dark background for a modern look */
+    color: #e0e0e0; /* Light gray text for contrast */
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+header {
+    margin-top: 12px;
+    text-align: center;
+    background-color: #1f1f1f; /* Slightly lighter than the body for distinction */
+    color: #f5a623; /* Warm orange for a pop of color */
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    background-color: #1f1f1f; /* Match header background */
+    padding: 15px 30px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 5px; /* Rounded corners for a modern look */
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #333333; /* Slightly lighter hover effect */
+}
+
+a {
+    text-decoration: none;
+    color: #f5a623; /* Match header text color */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffffff; /* White text on hover for better visibility */
+}
+
