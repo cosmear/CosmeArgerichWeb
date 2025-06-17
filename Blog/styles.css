@@ -216,6 +216,7 @@ nav.header-nav .nav-item a:hover {
     resize: vertical;
 }
 
+
 .footer-form button {
     background: #ffcc00;
     color: #232323;
@@ -364,6 +365,16 @@ nav.header-nav .nav-item a:hover {
     border-radius: 12px;
     box-shadow: 0 2px 12px rgba(255,204,0,0.10);
     margin-bottom: 18px;
+}
+
+.imagen-blog {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 18px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(255,204,0,0.10);
 }
 
 .main-image {
