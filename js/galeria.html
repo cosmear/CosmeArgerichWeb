@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galería de Imágenes</title>
+  <link rel="stylesheet" href="stylesportfolio.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pagina-galeria">
+    <h1>Galería de Imágenes</h1>
+    <div class="contenedor-galeria">
+      <button class="anterior" onclick="mostrarImagenAnterior()"><</button>
+      <img id="imagen-galeria" src="foca.png" alt="Imagen de galería" />
+      <button class="siguiente" onclick="mostrarImagenSiguiente()">></button>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Cosme Argerich</p>
+  </footer>
+
+  <script src="galeria.js"></script>
+</body>
+</html>
