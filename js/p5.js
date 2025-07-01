@@ -33,7 +33,9 @@ let cooldown = false;
 let startTime, endTime; 
 
 function setup() {
-  createCanvas(600, 600);
+  let lienzo = createCanvas(600, 600);
+  lienzo.parent("canvas-plinko"); // centrado correcto usando el div
+
   Inicio.x = width / 2;
   Inicio.y = height / 2;
   Ganaste.x = width / 2;
@@ -67,6 +69,7 @@ function setup() {
   pelotaInicial.x = random(50, width - 50);
   pelotaInicial.y = 50;
 }
+
 
 function draw() {
   if (gameState === "win") {

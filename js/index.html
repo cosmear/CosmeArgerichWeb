@@ -17,6 +17,7 @@
       </ul>
     </nav>
   </header>
+<canvas id="fondo-burbuja"></canvas>
 
   <main class="bienvenida">
     <section>
@@ -26,10 +27,27 @@
         <img src="img/foto.jpg" alt="Foto de Cosme Argerich" />
       </div>
     </section>
+    <section class="sobre-mi-interactiva">
+  <h2>¿Querés saber más sobre mí?</h2>
+  <div class="botones-info">
+    <button onclick="mostrarInfo('estudios')">🎓 Formación</button>
+    <button onclick="mostrarInfo('trabajo')">💼 Experiencia</button>
+    <button onclick="mostrarInfo('habilidades')">🧠 Habilidades</button>
+  </div>
+  <div id="contenido-info" class="contenido-plegable"></div>
+</section>
+<section class="seccion-navegacion">
+  <h3>Explorá mi portfolio</h3>
+  <div class="grid-navegacion" id="enlaces-dinamicos"></div>
+</section>
+
   </main>
 
   <footer>
     <p>© 2025 Cosme Argerich</p>
   </footer>
+ <script src="burbuja.js"></script>
+<script src="info.js"></script>
+
 </body>
 </html>

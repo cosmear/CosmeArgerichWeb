@@ -1,26 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="stylep5.css">
-    <meta charset="utf-8" />
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plinko - Cosme Argerich</title>
+  <link rel="stylesheet" href="stylesportfolio.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  </head>
-  <body>
-    <main>
-    
+  <main class="pagina-plinko">
     <h1>Plinko</h1>
-    <p>Arrastra el mouse hacia la pelota roja, el juego no funciona con colisiones no con clicks ya que p5 no soporta eventos de mouse de esa manera.</p>
-    <p>P5 aparte de ser un gran libreria para cualquier cosa grafica es muy buena para el calculos fisicos con coliciones echas a mano como en este juego</p>
-    <p>El juego es un clon de Plinko, un juego de azar que se popularizó en el programa de televisión "The Price is Right".</p>
-    <p>El objetivo es hacer que la bola caiga en una ranura al final del tablero, donde se puede ganar una cierta cantidad de puntos, mientras mas al medio este tu pelota mas puntos, cuidado con los rectangulos que quitan puntos si los tocas.</p> 
-    <p>Por mas que se use la libreria P5 hay muchos elementos de javascript involucrados en la logica del juego. se recorren ciclos for se utilica if se utiliza distintas function para dibujar las distintas escenas y obiamente todos los operadores de metamatica t de comparacion.</p>
-    <script src="p5.js"></script>
-    </main>
-    <footer>
-        <p>Creado por <a href="https://github.com/cosmear">Cosme Argerich</a></p>
-    </footer>
-  </body>
+    <section class="descripcion-plinko">
+      <p>Arrastrá el mouse hacia la pelota roja. El juego no usa clicks porque P5 no maneja eventos de esa forma.</p>
+      <p>Este clon de <strong>Plinko</strong> está inspirado en el juego de azar del programa <em>The Price is Right</em>. El objetivo es que la bola caiga en una ranura: mientras más centrada, más puntos. ¡Cuidado con los rectángulos que restan puntos!</p>
+      <p>La lógica se desarrolla en JavaScript usando <code>for</code>, <code>if</code>, funciones, operadores y cálculo de colisiones.</p>
+    </section>
+    <section id="canvas-plinko" class="centrar-canvas">
+      <script src="p5.js"></script>
+    </section>
+  </main>
 
+  <footer>
+    <p>© 2025 Cosme Argerich | <a href="https://github.com/cosmear" target="_blank">GitHub</a></p>
+  </footer>
+
+ 
+</body>
 </html>
