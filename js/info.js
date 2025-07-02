@@ -29,7 +29,7 @@ const paginas = [
   { nombre: "Contacto", url: "contacto.html" },
   { nombre: "Plinko", url: "plinko.html" },
   { nombre: "Calculadora", url: "calculadora.html" },
-  { nombre: "Galería", url: "galeria.html" }
+  { nombre: "Galería", url: "galeria.html" },
 ];
 
 window.addEventListener("DOMContentLoaded", () => {

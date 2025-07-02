@@ -7,6 +7,18 @@ function agregarValor(valor) {
 function borrarPantalla() {
   pantalla.value = "";
 }
+function raizCuadrada() {
+  try {
+    let valor = eval(pantalla.value);
+    if (valor < 0) {
+      pantalla.value = "Error";
+    } else {
+      pantalla.value = Math.sqrt(valor);
+    }
+  } catch (error) {
+    pantalla.value = "Error";
+  }
+}
 
 function calcularResultado() {
   try {
